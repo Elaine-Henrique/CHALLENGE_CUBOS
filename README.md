@@ -1,4 +1,4 @@
-### Desafio Backend CUBOS
+# Desafio Backend CUBOS
 
 ## Requerimentos
 
@@ -21,11 +21,11 @@ $ npm start
 
 ```
 
-###Endpoints
+## Endpoints
 
-#Cadastro de regra de atendimento.
+# Cadastro de regra de atendimento.
 
-Método ##POST##
+Método **POST**
 localhost:3000/regras 
 
 - [] exemplo para um dia específico
@@ -83,9 +83,9 @@ localhost:3000/regras
 
 - [ ] Os intervalos são validados para que o início do próximo período não seja menor que o fim do período anterior
 
-#Apagar regra
+# Apagar regra
 
-Altere o método para ##DELETE##
+Altere o método para **DELETE**
 localhost:3000/regras 
 
 - [] exemplo
@@ -102,16 +102,16 @@ localhost:3000/regras
     ]
 }
 ```
-#Listar regras
+# Listar regras
 
-Altere o método para ##GET##
+Altere o método para **GET**
 localhost:3000/regras 
 
 Retornar o todos as regras criadas.
 
-#Horários disponíveis
+# Horários disponíveis
 
-Altere o método para ##GET##
+Altere o método para **GET**
 http://localhost:3000/rules/interval?start=02-05-2019&end=05-05-2019
 
 Retorna os horários disponíveis, baseado nas regras criadas anteriormente, considerando o intervalo de datas informadas na requisição.
